@@ -1,0 +1,48 @@
+{
+    "author": "enyab.null@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "what3words",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "What3Words",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "WORD_THREE",
+            "WORD_TWO",
+            "WORD_ONE",
+            "WORD_FOUR",
+            "LAT_CHARACTERISTIC",
+            "LAT_MANTISSA",
+            "LON_CHARACTERISTIC",
+            "LON_MANTISSA",
+            "LESS_THAN_TEN"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Refresh_Icon.png",
+                    "name": "REFRESH_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "7c6270bb-b348-4751-869f-7d5bdb7dfbfc",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
